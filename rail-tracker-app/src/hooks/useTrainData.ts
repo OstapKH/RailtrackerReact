@@ -31,7 +31,7 @@ export function useTrainData(): UseTrainDataReturn {
         setLoading(true);
         setError(null);
         
-        const response = await fetch('/train_delay_data.json');
+        const response = await fetch('./train_delay_data.json');
         if (!response.ok) {
           throw new Error(`Failed to load data: ${response.statusText}`);
         }

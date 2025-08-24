@@ -2,6 +2,8 @@
 
 A comprehensive web application for analyzing train delay data across Ukraine's railway network. Built with React, TypeScript, and modern data visualization libraries.
 
+![Main Page](mainpage.png)
+
 ## Features
 
 - **Overview Dashboard**: Key metrics and statistics summary
